@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">TV Show and Movie Tracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home__tv">home_TV</string>
+    <string name="title_activity_home_tv">homeTV</string>
+    <string name="title_activity_home_movie">homeMovie</string>
+    <string name="title_activity_now_playing_movies">NowPlayingMovies</string>
+    <string name="title_activity_search_movie">SearchMovieActivity</string>
+
+    <string name="edit_message_movie">Search Movies</string>
+    <string name="edit_message_tv">Search TV Shows</string>
+    <string name="button_send">Search</string>
+    <string name="title_activity_search_result">Search Result</string>
+    <string name="image_of_movie">Image</string>
+   <string name="title_activity_top_rated">TopRated</string>
+    <string name="title_activity_search_tv">SearchTVActivity</string>
+    <string name="title_activity_on_the_air_tv">onTheAirTV</string>
+    <string name="title_activity_airing_today">AiringToday</string>
+    <string name="title_activity_top_rated_tv">TopRatedTV</string>
+    <string name="title_activity_popular_tv">PopularTV</string>
+    <string name="title_activity_detailed_view">DetailedView</string>
+    <string name="title_activity_now_playing">NowPlaying</string>
+    <string name="title_activity_upcoming_movies">UpcomingMovies</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_rating">RatingActivity</string>
+
+
+
+    <string name="input_hint">Enter a Task</string>
+    <string name="submit_button">Submit</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="action_logout">Logout</string>
+    <string name="username">Username:</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="password_label">Password:</string>
+    <string name="already_have_an_account_label">Already Have An Account? Log In!</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="dont_have_an_account_label">Do not have an account? Register!</string>
+
+    <string name="parse_application_id">aDDqrB7WPgyAlGcxUKXpjTbS3EZBpflZBRJHaKOc</string>
+    <string name="parse_client_key">xESrAsBAipLBIIEHj4TSsnmjcZhuePjf1N7yoUTm</string>
+    <string name="title_activity_my_tvshows">TV Show Watchlist</string>
+
+
+    <string name="action_add_to_tvshow">Add TV Show</string>
+    <string name="action_add_to_movie">Add Movie</string>
+
+    <string name="title_activity_watchlist_tvdetail_view">TV Show Watchlist</string>
+    <string name="title_activity_watchlist_movie_detail_view">Movie Show Watchlist</string>
+    <string name="title_activity_my_movie_shows">Movie Watchlist</string>
+
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/name_of_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_of_movie"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/name_of_movie"
+        android:contentDescription="@string/image_of_movie"
+        android:padding="5dp"
+        android:src="@drawable/images" />
+
+    <ListView
+        android:id="@+id/cast_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_of_movie"
+        android:layout_toStartOf="@+id/synopsis" />
+
+    <TextView
+        android:id="@+id/synopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_of_movie"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/image_of_movie"
+        android:layout_toRightOf="@+id/image_of_movie"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dip"
+        android:text="7"
+        android:textColor="#10bcc9"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:id="@+id/buttonComment"
+        android:background="#009ACD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonRating"
+        android:layout_alignEnd="@+id/buttonAddtoWatchlist"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:id="@+id/buttonRating"
+        android:background="#009ACD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/rating" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Add To Watchlist"
+        android:id="@+id/buttonAddtoWatchlist"
+        android:background="#009ACD"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_below="@+id/buttonComment"
+        android:layout_toStartOf="@+id/rating"
+        android:layout_marginTop="39dp" />
+
+</RelativeLayout>
